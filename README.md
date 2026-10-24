@@ -21,7 +21,7 @@ This project analyzes and compares the performance of BBRI, BMRI and BBCA bankin
 ## 📁 Project Structure
 
 ```
-idx-bank-stock-risk-analysis/
+stock-analyzer/
 ├── README.md
 ├── requirements.txt
 └── main.py
@@ -31,7 +31,7 @@ idx-bank-stock-risk-analysis/
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/username/idx-bank-stock-risk-analysis.git
+   git clone https://github.com/AfifArdian/stock-analyzer.git
    ```
 2. Install library
    ```bash
