@@ -1,16 +1,16 @@
-# 🏦 Analisis Risiko & Return Saham Perbankan Indonesia
+# 🏦 Risk Analysis & Return of Indonesian Banking Shares
 
-## 🎯 Deskripsi Project
+## 🎯 Project Description
 
-Project ini menganalisis dan membandingkan performa saham perbankan BBRI, BMRI, dan BBCA terhadap benchmark IHSG (^JKSE) selama periode 2019-2024 menggunakan Python, dengan fokus pada return, volatilitas, Sharpe Ratio, Max Drawdown, Beta, VaR 95%, dan Skewness.
+This project analyzes and compares the performance of BBRI, BMRI and BBCA banking shares against the IHSG benchmark (^JKSE) during the 2019-2024 period using Python, with a focus on return, volatility, Sharpe Ratio, Max Drawdown, Beta, VaR 95%, and Skewness.
 
-## ❓ Pertanyaan yang Dijawab
+## ❓ Questions Answered
 
-- Saham mana yang memberikan return lebih tinggi?
-- Saham mana yang lebih stabil (volatilitas rendah)?
-- Saham mana yang lebih efisien (Sharpe Ratio)?
-- Saham mana yang paling sensitif terhadap pergerakan pasar (Beta vs IHSG)?
-- Berapa potensi kerugian harian terburuk (VaR 95%) dan penurunan terdalam (Max Drawdown)?
+- Which shares provide higher returns?
+- Which stocks are more stable (low volatility)?
+- Which stock is more efficient (Sharpe Ratio)?
+- Which stocks are most sensitive to market movements (Beta vs JCI)?
+- What is the worst potential daily loss (VaR 95%) and deepest drop (Max Drawdown)?
 
 ## 🛠️ Tools & Library
 
@@ -18,7 +18,7 @@ Project ini menganalisis dan membandingkan performa saham perbankan BBRI, BMRI, 
 - pandas, numpy
 - yfinance
 
-## 📁 Struktur Project
+## 📁 Project Structure
 
 ```
 idx-bank-stock-risk-analysis/
@@ -27,9 +27,9 @@ idx-bank-stock-risk-analysis/
 └── main.py
 ```
 
-## 🔍 Cara Menjalankan
+## 🔍 How to Run
 
-1. Clone repository ini
+1. Clone this repository
    ```bash
    git clone https://github.com/username/idx-bank-stock-risk-analysis.git
    ```
@@ -37,29 +37,29 @@ idx-bank-stock-risk-analysis/
    ```bash
    pip install -r requirements.txt
    ```
-3. Jalankan script
+3. Run script
    ```bash
    python main.py
    ```
 
-## 📈 Hasil Utama
+## 📈 Main Results
 
 | Metrik | BBRI | BMRI | BBCA |
 |---|---|---|---|
-| Mean Return (tahunan) | 13.69% | 17.60% | 15.65% |
+| Mean Return (annual) | 13.69% | 17.60% | 15.65% |
 | Sharpe Ratio | 0.24 | 0.35 | 0.40 |
 | Max Drawdown | -52.43% | -52.05% | -35.56% |
 | Beta vs IHSG | 1.48 | 1.50 | 1.07 |
 | VaR 95% | -2.82% | -3.11% | -2.07% |
 | Skewness | 0.87 | 0.20 | 1.03 |
 
-- **Kesimpulan:** Selama periode 2019-2024, saham BMRI memberikan return terbaik dengan Sharpe Ratio 0.35 sedangkan saham BBCA memiliki risiko terendah dengan volatilitas tahunan 24.34%
+- **Conclusion:** During the 2019-2024 period, BMRI shares provided the best return with a Sharpe Ratio of 0.35 while BBCA shares had the lowest risk with annual volatility of 24.34%
 
-> **Catatan:** Jika muncul pesan `[WARN]` saat program dijalankan, artinya download yfinance gagal dan program memakai **data simulasi (bukan data asli)**. Jangan gunakan hasil tersebut untuk kesimpulan.
+> **Note:** If the message `[WARN]` appears when the program is running, it means that the download of yfinance failed and the program used **simulation data (not original data)**. Don't use these results for conclusions.
 
 ## ⚠️ Disclaimer
 
-Project ini bersifat edukasi dan bukan rekomendasi investasi. Performa masa lalu tidak menjamin hasil di masa depan.
+This project is educational and not an investment recommendation. Past performance does not guarantee future results.
 
 ## 👤 Author
 
