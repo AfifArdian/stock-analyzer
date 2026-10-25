@@ -9,7 +9,7 @@ This project analyzes and compares the performance of BBRI, BMRI and BBCA bankin
 - Which shares provide higher returns?
 - Which stocks are more stable (low volatility)?
 - Which stock is more efficient (Sharpe Ratio)?
-- Which stocks are most sensitive to market movements (Beta vs JCI)?
+- Which stocks are most sensitive to market movements (Beta vs IHSG)?
 - What is the worst potential daily loss (VaR 95%) and deepest drop (Max Drawdown)?
 
 ## 🛠️ Tools & Library
